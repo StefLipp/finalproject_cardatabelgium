@@ -1,3 +1,7 @@
+{{ config(
+    materialized='table'
+) }}
+
 WITH dim_city AS (SELECT * FROM {{ref('dim_city')}}),
 
 stg_car AS (SELECT * FROM {{ref('stg_carprojectbelgium__spark_cardata2017-2023')}}),
