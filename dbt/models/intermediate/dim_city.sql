@@ -1,3 +1,8 @@
+
+{{ config(
+    materialized='table'
+) }}
+
 WITH stg_city AS (SELECT * FROM {{ref('stg_carprojectbelgium__spark_muncipalitydata')}}),
 stg_car AS (SELECT * FROM {{ref('stg_carprojectbelgium__spark_cardata2017-2023')}}),
 city_names AS (

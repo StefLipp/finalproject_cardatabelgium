@@ -1,3 +1,7 @@
+{{ config(
+    materialized='table'
+) }}
+
 WITH car AS (SELECT * FROM {{ref('fct_cardata')}}),
 
 city AS (SELECT * FROM {{ref('dim_city')}}),
