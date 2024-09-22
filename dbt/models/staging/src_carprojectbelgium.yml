@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: carprojectbelgium
+    dataset: belgium_cardata
+    tables:
+      - name: spark_cardata2017-2023
+        description: "Data of car ownership in Belgium, processed through Spark."
+      - name: spark_muncipalitydata
+        description: "Data of towns and cities in Belgium, processed through Spark."
