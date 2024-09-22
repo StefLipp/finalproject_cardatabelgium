@@ -38,5 +38,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   carprojectbelgium:
     # Applies to all files under models/example/
-    example:
+    models:
       +materialized: table
