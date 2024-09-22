@@ -1,1 +1,2 @@
-*Data Pipeline and Analysis of Belgian Car Data*
+**Data Pipeline and Analysis of Belgian Car Data**
+
