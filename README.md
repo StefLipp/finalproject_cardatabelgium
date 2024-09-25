@@ -19,6 +19,8 @@ Our data sources for this analysis include car ownership data from Statbel (stat
 
 Please consult [Belgian_Car_Data_Pipeline_Documentation.pdf](https://github.com/StefLipp/finalproject_cardatabelgium/blob/main/documentation_and_design/Belgian_Car_Data_Pipeline_Documentation.pdf) for a comprehensive documentation on the Data Pipeline project, covering everything from A to Z.
 
+An interactive online dashboard is available at https://cardatabelgium-web-dashboard.streamlit.app/for convenient data analysis.
+
 ## Tools Used
 
 **Languages:**         Python, SQL
