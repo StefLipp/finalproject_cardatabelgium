@@ -1,19 +1,8 @@
 # Data Pipeline and Analysis of Belgian Car Data
 
-This project aims to analyze the interaction between various municipal-level characteristics and the
-degree of car ownership in Belgium. To achieve this, we have developed a comprehensive
-workflow that facilitates the extraction, transformation, and analysis of relevant data.
-The workflow begins with the extraction of data from online sources. This data is subsequently
-ingested into our Data Lake.
+This project analyzes the interaction between municipal characteristics and car ownership in Belgium. We developed a workflow for extracting, transforming, and analyzing data, starting with online data extraction into a Data Lake. The data is then processed and loaded into a Data Warehouse. 
 
-Next, we perform the transformation and loading of this data. Using batch-processing and
-transformations, after which we load the data into our Data Warehouse.
-
-Finally, we connect an interactive dashboard to the Data Warehouse. This allows us to generate
-insightful reports and conduct detailed analyses of the data.
-The primary research question guiding this project is: How do different municipal-level
-characteristics interact with the degree of car ownership? Key elements of our analysis include
-population density, province, city area size, the count of sub-municipalities, and household types.
+An interactive dashboard connected to the warehouse generates reports and supports detailed analysis. The main research question focuses on how municipal characteristics like population density, province, city size, sub-municipality count, and household types affect car ownership. 
 
 Our data sources for this analysis include car ownership data from Statbel (statbel.fgov.be) and city demographic information from Wikipedia tables.
 
@@ -50,4 +39,16 @@ An interactive online dashboard is available at https://cardatabelgium-web-dashb
 ![Screenshot 2024-09-24 at 16-03-07 ](https://github.com/user-attachments/assets/6048862e-616c-4b80-9d34-004da683661b)
 
 
+## Directories
+**mage_load_and_spark:** Code responsible for orchestration, data extraction, batch transformations and the loading of data.
+
+**terraform_deploy:** Code responsible for cloud deployment.
+
+**dbt:** Code responsible for additional data modelling.
+
+**dashboard:** Files containing MS PowerBi dashboards.
+
+**documentation_and_design:** Lenghty documentation and design of the pipeline.
+
+**backup:** Zip files containing a backup of both source and processed data.
 
