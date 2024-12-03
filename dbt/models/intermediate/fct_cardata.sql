@@ -37,3 +37,4 @@ FROM pivot_car h
 LEFT JOIN dim_city c
 ON c.city_name_FR = h.TX_MUNTY_DESCR_FR
 
+
